@@ -13,3 +13,8 @@ spring:
     console:
       enabled: true
       path: /h2-console
+
+security:
+  jwt:
+    expiration: 86400
+    key: 05099799-f97b-44ff-962f-9156dd248d2b
